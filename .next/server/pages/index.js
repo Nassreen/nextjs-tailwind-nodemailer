@@ -42,7 +42,7 @@ var external_react_ = __webpack_require__(6689);
 var next_link = __webpack_require__(1664);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 ;// CONCATENATED MODULE: ./pages/index.js
-Object(function webpackMissingModule() { var e = new Error("Cannot find module './dev-ed-dark.png'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+Object(function webpackMissingModule() { var e = new Error("Cannot find module '..public/dev-ed-dark.png'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 
 
 
@@ -130,7 +130,7 @@ function Home() {
                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
                             className: "relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mb-5 overflow-hidden md:h-96 md:w-96 dark:from-teal-200",
                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                src: darkMode ? Object(function webpackMissingModule() { var e = new Error("Cannot find module './dev-ed-dark.png'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()) : dev_ed_wave,
+                                src: darkMode ? Object(function webpackMissingModule() { var e = new Error("Cannot find module '..public/dev-ed-dark.png'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()) : dev_ed_wave,
                                 alt: "",
                                 className: "layout-fill-none objectFit-cover "
                             })

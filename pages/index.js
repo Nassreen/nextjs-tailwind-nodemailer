@@ -3,13 +3,12 @@ import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import Image from 'next/image'
 import Deved from '../public/dev-ed-wave.png'
-import darkdev from './dev-ed-dark.png'
+import darkdev from '..public/dev-ed-dark.png'
 import design from '../public/design.png'
 import code from '../public/code.png'
 import consulting from '../public/consulting.png'
 import { useState } from 'react'
 import Link from 'next/link'
-
 
 
 export default function Home() {
