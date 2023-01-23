@@ -1,7 +1,6 @@
 {
   "dependencies": {
-    "start": "^5.1.0",
-    "build": "next build",
-    "export" :"next export"
+    "start": "^5.1.0"
+  
   }
 }
