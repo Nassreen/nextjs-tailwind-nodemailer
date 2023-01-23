@@ -1,6 +1,9 @@
 {
   "dependencies": {
-    "start": "^5.1.0"
-  
+    "start": "^5.1.0",
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "next lint",
+    "export": "next sport"
   }
 }
