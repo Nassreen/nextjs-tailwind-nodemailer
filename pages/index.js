@@ -2,8 +2,8 @@ import Head from 'next/head'
 import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import Image from 'next/image'
-import Deved from '../public/dev-ed-wave.png'
-import darkdev from '..public/dev-ed-dark.png'
+import deved from '../public/dev-ed-wave.png'
+import darkdev from '..public/Nasrin-dark.png'
 import design from '../public/design.png'
 import code from '../public/code.png'
 import consulting from '../public/consulting.png'
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
           <div className='relative  mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mb-5 overflow-hidden md:h-96 md:w-96 dark:from-teal-200' >
 
-            < Image src={darkMode ? darkdev : Deved } alt='' className='layout-fill-none objectFit-cover '/> 
+            < Image src={darkMode ? darkdev : deved } alt='' className='layout-fill-none objectFit-cover '/> 
           
           </div>
 
