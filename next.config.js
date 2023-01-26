@@ -3,8 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    loader: 'akamai',
-    path: '',
+    loader: 'default',
+    path: '/_next/image',
+    
   },
   future: { webpack5: true }
 }
